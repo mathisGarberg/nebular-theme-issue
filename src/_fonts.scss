@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url("/assets/fonts/ProximaNova-Regular.otf") format("opentype");
+    font-style: normal;
+  }
+  
+  /* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab'); */
+  
+  $main-font: unquote('ProximaNova, "Helvetica Neue", Arial, sans-serif');
+  $header-font: unquote('ProximaNova, "Helvetica Neue", Arial, sans-serif');
+  

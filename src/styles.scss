@@ -1,0 +1,17 @@
+// themes - our custom or/and out of the box themes
+@import './themes';
+
+// framework component themes (styles tied to theme variables)
+@import '~@nebular/theme/styles/globals';
+
+@import './layout';
+@import './overrides';
+
+// install the framework and custom global styles
+@include nb-install() {
+  @include nb-theme-global();
+
+  @include ngx-layout();
+
+  @include nb-overrides();
+};
